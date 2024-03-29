@@ -11980,6 +11980,36 @@ p {
   font-size: 18PX;
 }
 
+.hero-scene {
+  position: relative;
+}
+.hero-scene::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/mini-golf-4494100_1280.jpg);
+  background-size: cover;
+  filter: brightness(0.3);
+}
+.hero-scene * {
+  position: relative;
+}
+
+.hero-scene-content {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-text {
+  text-align: justify;
+}
+
 footer.footer {
   padding: 15px;
   position: absolute;
